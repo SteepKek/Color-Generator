@@ -1,0 +1,154 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/* ===================================================================================================================================================================== */
+
+body {
+	font-size: 20px;
+	font-family: monospace;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 430px;
+	height: 470px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.color-block {
+	width: 350px;
+	height: 350px;
+	background-color: rgb(220, 173, 246);
+	margin-bottom: 25px;
+}
+
+.color-block-subtitle {
+	width: 77%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.color-code-td {
+	text-decoration: underline;
+	font-weight: 500;
+}
+
+.btn-change-color {
+	width: 110px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #000;
+	text-align: center;
+	border-radius: 15px;
+	background-color: rgba(128, 128, 128, 1);
+	color: #fff;
+	cursor: pointer;
+
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.btn-change-color:hover {
+	background-color: rgba(128, 128, 128, 0.8);
+}
+
+.btn-change-color:active {
+	transform: translateY(1px);
+}
