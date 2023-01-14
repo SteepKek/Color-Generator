@@ -152,3 +152,15 @@ body {
 .btn-change-color:active {
 	transform: translateY(1px);
 }
+
+@media (max-width: 500px) {
+	.color-code {
+		font-size: 18px;
+	}
+
+	.btn-change-color {
+		width: 90px;
+		font-size: 18px;
+		font-weight: 500;
+	}
+}
